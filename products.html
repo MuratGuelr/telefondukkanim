@@ -1,289 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ürünlerimiz | Kodluyoruz</title>
-    <link rel="stylesheet" href="css/style.css" class="css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Trispace:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Telefon Dükkanım</h1>
+      <ul>
+        <li><a href="/index.html" id="home">Anasayfa</a></li>
+        <li><a href="/products.html" id="products">Ürünlerimiz</a></li>
+        <li><a href="/about-us.html" id="about-us">Hakkımızda</a></li>
+      </ul>
+    </nav>
+    <hr />
 
-<style>
-body
-    {
-        text-align: center;
-    }
+    <!-- Hero -->
+    <hero>
+      <h2>Ürünlerimiz</h2>
+      <p>En yeni ürünlerimiz!</p>
+    </hero>
 
-   .he
-    {
-    background-color: #A91079;
-    border-bottom: solid black 3px;
-    border-right: solid black 3px;
-    border-radius: 1em;
-    color: white;
-    font-style: italic;
-    font-family: 'Trispace', sans-serif;
-    text-decoration: none;
-    margin-top: 3.5em;
-    opacity: 70%;
-    transition: 600ms;
-    margin: 2.5em;
-    opacity: 80%;
-    text-shadow: 2px 2px 10px black;
-    }
+    <!-- Products -->
+    <div class="products">
+      <div class="product-card">
+        <div class="product-card-img">
+          <img src="https://resim.epey.com/613204/b_infinix-zero-8-2.png" />
+        </div>
+        <div class="product-specs">
+          <h4>
+            <a
+              href="https://www.epey.com/akilli-telefonlar/infinix-zero-8.html"
+              target="_blank"
+              >Infinix Zero 8 (X687)</a
+            >
+          </h4>
+          <p>Ekran Boyutu: 6.85 İnç</p>
+          <p>Dahili Depolama: 128 GB</p>
+          <p>Bellek (RAM): 8 GB</p>
+          <p>Batarya Kapasitesi: 4500 mAh</p>
+          <p>Hat Sayısı: Çift Hat</p>
+          <p>Hızlı Şarj: Var</p>
+          <p style="margin-bottom: 2em">5G: Yok</p>
+        </div>
+      </div>
 
-    .he:hover 
-{
-    margin: 3em;
-    display: inline;
-    background-color: white;
-    border-bottom: solid black 5px;
-    border-right: solid black 5px;
-    border-radius: 0.4em;
-    color: #A91079;
-    font-style: italic;
-    font-family: 'Trispace', sans-serif;
-    text-decoration: none;
-    cursor: pointer;
-    opacity: 100%;
-    font-size: 19px;
-    text-shadow: 2px 2px 3px black;
+      <div class="product-card">
+        <div class="product-card-img">
+          <img src="https://resim.epey.com/672868/b_redmi-9t-128gb-2.png" />
+        </div>
+        <div class="product-specs">
+          <h4>
+            <a
+              href="https://www.epey.com/akilli-telefonlar/redmi-9t-128gb.html"
+              target="_blank"
+              >Redmi 9T (128 GB)</a
+            >
+          </h4>
+          <p>Ekran Boyutu: 6.53 İnç</p>
+          <p>Dahili Depolama: 128 GB</p>
+          <p>Bellek (RAM): 4 GB</p>
+          <p>Batarya Kapasitesi: 6000 mAh</p>
+          <p>Hat Sayısı: Çift Hat</p>
+          <p>Hızlı Şarj: Var</p>
+          <p style="margin-bottom: 2em">5G: Yok</p>
+        </div>
+      </div>
 
-}
-h1 
-{
-    font-size: 56px;
-    margin: 0em;
-    font-family: 'Titan One', cursive;
-    display: inline;
-    border-radius: 2em;
-    padding: 0.1em;
-    background-color: #A91079;
-    color: rgb(255, 255, 255);
-    border-bottom: solid black 5px;
-    border-right: solid black 5px;
-    transition: 700ms;
-    text-shadow: 2px 2px 10px black;
-}
-h1:hover 
-{
-    font-size: 60px;
-    margin: 1em;
-    font-family: 'Titan One', cursive;
-    display: inline;
-    border-radius: 2em;
-    background-color: rgb(255, 255, 255);
-    color: #A91079;
-    border-bottom: solid black 5px;
-    border-right: solid black 20px;
-    text-shadow: 2px 2px 3px black;
-}
+      <div class="product-card">
+        <div class="product-card-img">
+          <img
+            src="https://resim.epey.com/564443/m_xiaomi-redmi-note-9-128gb-4.png"
+          />
+        </div>
+        <div class="product-specs">
+          <h4>
+            <a
+              href="https://www.epey.com/akilli-telefonlar/xiaomi-redmi-note-9-128gb.html"
+              target="_blank"
+              >Xiaomi Redmi Note 9 (128 GB)</a
+            >
+          </h4>
+          <p>Ekran Boyutu: 6.53 İnç</p>
+          <p>Dahili Depolama: 128 GB</p>
+          <p>Bellek (RAM): 4 GB</p>
+          <p>Batarya Kapasitesi: 5020 mAh</p>
+          <p>Hat Sayısı: Çift Hat</p>
+          <p>Hızlı Şarj: Var</p>
+          <p style="margin-bottom: 2em">5G: Yok</p>
+        </div>
+      </div>
 
-h2 
-{
-    font-size: 35px;
-    font-family: 'Titan One', cursive;
-    display: inline;
-    border-radius: 0.5em;
-    background-color: #A91079;
-    color: rgb(255, 255, 255);
-    border-bottom: solid black 5px;
-    border-right: solid black 5px;
-    transition: 700ms;
-    padding: 2px;
-    text-shadow: 2px 2px 10px black;
-}
-h2:hover 
-{
-    font-size: 40px;
-    font-family: 'Titan One', cursive;
-    display: inline;
-    border-radius: 0.5em;
-    background-color: rgb(255, 255, 255);
-    color: #A91079;
-    border-bottom: solid black 5px;
-    border-right: solid black 2px;
-    text-shadow: 2px 2px 3px black;
-}
-hr 
-{
-    font-size: 40px;
-    color: #A91079;
-    border: double #A91079 5px;
-    border-radius: 3em;
-    display: grid;
-}
-.hrw 
-{
-    font-size: 40px;
-    color: #A91079;
-    border: double #A91079 5px;
-    border-radius: 3em;
-    display: grid;  
-    margin-left: 11em;
-    margin-right: 11.4em;
-    margin-bottom: 9px;
-}
-.hre
-{
-    font-size: 40px;
-    color: #A91079;
-    border: double #A91079 5px;
-    border-radius: 3em;
-    display: grid;  
-    margin-left: 13em;
-    margin-right: 13.4em;
-    margin-top: 10px;
-}
-</style>
+      <div class="product-card">
+        <div class="product-card-img">
+          <img src="https://resim.epey.com/203051/m_redmi-note-8-16.png" />
+        </div>
+        <div class="product-specs">
+          <h4>
+            <a
+              href="https://www.epey.com/akilli-telefonlar/redmi-note-8.html"
+              target="_blank"
+              >Xiaomi Redmi Note 8</a
+            >
+          </h4>
+          <p>Ekran Boyutu: 6.3 İnç</p>
+          <p>Dahili Depolama: 64 GB</p>
+          <p>Bellek (RAM): 4 GB</p>
+          <p>Batarya Kapasitesi: 4000 mAh</p>
+          <p>Hat Sayısı: Çift Hat</p>
+          <p>Hızlı Şarj: Var</p>
+          <p style="margin-bottom: 2em">5G: Yok</p>
+        </div>
+      </div>
 
-</head>
-<body>
+      <div class="product-card">
+        <div class="product-card-img">
+          <img src="https://resim.epey.com/395367/m_vestel-venus-z40-3.png" />
+        </div>
+        <div class="product-specs">
+          <h4>
+            <a
+              href="https://www.epey.com/akilli-telefonlar/vestel-venus-z40.html"
+              target="_blank"
+              >Vestel Venus Z40</a
+            >
+          </h4>
+          <p>Ekran Boyutu: 6.4 İnç</p>
+          <p>Dahili Depolama: 128 GB</p>
+          <p>Bellek (RAM): 4 GB</p>
+          <p>Batarya Kapasitesi: 3500 mAh</p>
+          <p>Hat Sayısı: Çift Hat</p>
+          <p>Hızlı Şarj: Var</p>
+          <p style="margin-bottom: 2em">5G: Yok</p>
+        </div>
+      </div>
 
-    
-  <!-- Header -->
-  <hr>
-  <h1>Telefon Dükkanım</h1>
-  <hr class="hrw">
-  <header>
-      <a href="index.html" id="baslik" class="he">Anasayfa</a>
-      <a href="products.html" id="baslik" class="he">Ürünlerimiz</a>
-      <a href="about-us.html" id="baslik" class="he">Hakkımızda</a>
-  </header>
-  <hr class="hre">
-    <h2>Ürünlerimiz</h2>
-    <br>
-    <br>
-    <br>
-     <!-- Products -->
+      <div class="product-card">
+        <div class="product-card-img">
+          <img src="https://resim.epey.com/628730/m_poco-m3-2.png" />
+        </div>
+        <div class="product-specs">
+          <h4>
+            <a
+              href="https://www.epey.com/akilli-telefonlar/poco-m3.html"
+              target="_blank"
+              >Poco M3 (64 GB)</a
+            >
+          </h4>
+          <p>Ekran Boyutu: 6.53 İnç</p>
+          <p>Dahili Depolama: 64 GB</p>
+          <p>Bellek (RAM): 4 GB</p>
+          <p>Batarya Kapasitesi: 6000 mAh</p>
+          <p>Hat Sayısı: Çift Hat</p>
+          <p>Hızlı Şarj: Var</p>
+          <p style="margin-bottom: 2em">5G: Yok</p>
+        </div>
+      </div>
 
-     <section>   
-<article>
-        <a href="https://www.epey.com/akilli-telefonlar/redmi-9t.html" target="_blank">Xiaomi Mi 9T </a>
-        <img src="https://resim.epey.com/167771/m_xiaomi-xiaomi-mi-9t-1.png" height="240" class="kre">
-        <p style="margin-top: 1em;">Ekran Boyutu: 6.53 İnç</p>
-        <p>Dahili Depolama: 64 GB</p>
-        <p>Bellek (RAM): 3 GB</p>
-        <p>Batarya Kapasitesi: 5020 mAh  
-        <p>Hat Sayısı: Çift Hat</p>
-        <p>Hızlı Şarj: Var</p>
-        <p style="margin-bottom: 2em;" >5G: Yok</p>
-    </article>
+      <div class="product-card">
+        <div class="product-card-img">
+          <img src="https://resim.epey.com/723566/m_omix-x500-3.png" />
+        </div>
+        <div class="product-specs">
+          <h4>
+            <a
+              href="https://www.epey.com/akilli-telefonlar/omix-x500.html"
+              target="_blank"
+              >Omix X500</a
+            >
+          </h4>
+          <p>Ekran Boyutu: 6.67 İnç</p>
+          <p>Dahili Depolama: 128 GB</p>
+          <p>Bellek (RAM): 4 GB</p>
+          <p>Batarya Kapasitesi: 5000 mAh</p>
+          <p>Hat Sayısı: Çift Hat</p>
+          <p>Hızlı Şarj: Var</p>
+          <p style="margin-bottom: 2em">5G: Yok</p>
+        </div>
+      </div>
 
-<article>
-    <a href="https://www.epey.com/akilli-telefonlar/infinix-zero-8.html" target="_blank">Infinix Zero 8 (X687)</a>
-    <img src="https://resim.epey.com/613204/b_infinix-zero-8-2.png" height="240" class="kre">
-    <p style="margin-top: 1em;">Ekran Boyutu: 6.85 İnç</p>
-    <p>Dahili Depolama: 128 GB</p>
-    <p>Bellek (RAM): 8 GB</p>
-    <p>Batarya Kapasitesi: 4500 mAh  
-    <p>Hat Sayısı: Çift Hat</p>
-    <p>Hızlı Şarj: Var</p>
-    <p style="margin-bottom: 2em;" >5G: Yok</p>
-</article>
+      <div class="product-card">
+        <div class="product-card-img">
+          <img src="https://resim.epey.com/428492/m_redmi-note-9-14.jpg" />
+        </div>
+        <div class="product-specs">
+          <h4>
+            <a
+              href="https://www.epey.com/akilli-telefonlar/redmi-note-9.html"
+              target="_blank"
+              >Xiaomi Redmi Note 9</a
+            >
+          </h4>
+          <p>Ekran Boyutu: 6.53 İnç</p>
+          <p>Dahili Depolama: 64 GB</p>
+          <p>Bellek (RAM): 3 GB</p>
+          <p>Batarya Kapasitesi: 5020 mAh</p>
+          <p>Hat Sayısı: Çift Hat</p>
+          <p>Hızlı Şarj: Var</p>
+          <p style="margin-bottom: 2em">5G: Yok</p>
+        </div>
+      </div>
 
-<article>
-    <a href="https://www.epey.com/akilli-telefonlar/redmi-9t-128gb.html" target="_blank">Redmi 9T (128 GB)</a>
-    <img src="https://resim.epey.com/672868/b_redmi-9t-128gb-2.png" height="240" class="kre">
-    <p style="margin-top: 1em;">Ekran Boyutu: 6.53 İnç</p>
-    <p>Dahili Depolama: 128 GB</p>
-    <p>Bellek (RAM): 4 GB</p>
-    <p>Batarya Kapasitesi: 6000 mAh  
-    <p>Hat Sayısı: Çift Hat</p>
-    <p>Hızlı Şarj: Var</p>
-    <p style="margin-bottom: 2em;" >5G: Yok</p>
-</article>
+      <div class="product-card">
+        <div class="product-card-img">
+          <img src="https://resim.epey.com/676901/m_realme-8-18.png" />
+        </div>
+        <div class="product-specs">
+          <h4>
+            <a
+              href="https://www.epey.com/akilli-telefonlar/realme-8.html"
+              target="_blank"
+              >Realme 8 (RMX3085)</a
+            >
+          </h4>
+          <p>Ekran Boyutu: 6.4 İnç</p>
+          <p>Dahili Depolama: 128 GB</p>
+          <p>Bellek (RAM): 6 GB</p>
+          <p>Batarya Kapasitesi: 5000 mAh</p>
+          <p>Hat Sayısı: Çift Hat</p>
+          <p>Hızlı Şarj: Var</p>
+          <p style="margin-bottom: 2em">5G: Yok</p>
+        </div>
+      </div>
+    </div>
 
-
-<article>
-    <a href="https://www.epey.com/akilli-telefonlar/xiaomi-redmi-note-9-128gb.html" target="_blank">Xiaomi Redmi Note 9(128GB)</a>
-    <img src="https://resim.epey.com/564443/m_xiaomi-redmi-note-9-128gb-4.png" height="240" class="kre">
-    <p style="margin-top: 1em;">Ekran Boyutu: 6.53 İnç</p>
-    <p>Dahili Depolama: 128 GB</p>
-    <p>Bellek (RAM): 4 GB</p>
-    <p>Batarya Kapasitesi: 5020 mAh  
-    <p>Hat Sayısı: Çift Hat</p>
-    <p>Hızlı Şarj: Var</p>
-    <p style="margin-bottom: 2em;" >5G: Yok</p>
-</article>
-
-
-<article>
-    <a href="https://www.epey.com/akilli-telefonlar/redmi-note-8.html" target="_blank">Xiaomi Redmi Note 8</a>
-    <img src="https://resim.epey.com/203051/m_redmi-note-8-16.png" height="240" class="kre">
-    <p style="margin-top: 1em;">Ekran Boyutu: 6.3 İnç</p>
-    <p>Dahili Depolama: 64 GB</p>
-    <p>Bellek (RAM): 4 GB</p>
-    <p>Batarya Kapasitesi: 4000 mAh  
-    <p>Hat Sayısı: Çift Hat</p>
-    <p>Hızlı Şarj: Var</p>
-    <p style="margin-bottom: 2em;" >5G: Yok</p>
-</article>
-    
-
-<article>
-    <a href="https://www.epey.com/akilli-telefonlar/vestel-venus-z40.html" target="_blank">Vestel Venus Z40</a>
-    <img src="https://resim.epey.com/395367/m_vestel-venus-z40-3.png" height="240" class="kre">
-    <p style="margin-top: 1em;">Ekran Boyutu: 6.4 İnç</p>
-    <p>Dahili Depolama: 128 GB</p>
-    <p>Bellek (RAM): 4 GB</p>
-    <p>Batarya Kapasitesi: 3500 mAh  
-    <p>Hat Sayısı: Çift Hat</p>
-    <p>Hızlı Şarj: Var</p>
-    <p style="margin-bottom: 2em;" >5G: Yok</p>
-</article>
-
-
-<article>
-    <a href="https://www.epey.com/akilli-telefonlar/poco-m3.html" target="_blank">Poco M3 (64 GB)</a>
-    <img src="https://resim.epey.com/628730/m_poco-m3-2.png" height="240" class="kre">
-    <p style="margin-top: 1em;">Ekran Boyutu: 6.53 İnç</p>
-    <p>Dahili Depolama: 64 GB</p>
-    <p>Bellek (RAM): 4 GB</p>
-    <p>Batarya Kapasitesi: 6000 mAh  
-    <p>Hat Sayısı: Çift Hat</p>
-    <p>Hızlı Şarj: Var</p>
-    <p style="margin-bottom: 2em;" >5G: Yok</p>
-</article>
-
-<article>
-    <a href="https://www.epey.com/akilli-telefonlar/omix-x500.html" target="_blank">Omix X500</a>
-    <img src="https://resim.epey.com/723566/m_omix-x500-3.png" height="240" class="kre">
-    <p style="margin-top: 1em;">Ekran Boyutu: 6.67 İnç</p>
-    <p>Dahili Depolama: 128 GB</p>
-    <p>Bellek (RAM): 4 GB</p>
-    <p>Batarya Kapasitesi: 5000 mAh  
-    <p>Hat Sayısı: Çift Hat</p>
-    <p>Hızlı Şarj: Var</p>
-    <p style="margin-bottom: 2em;" >5G: Yok</p>
-</article>
-
-
-<article>
-    <a href="https://www.epey.com/akilli-telefonlar/redmi-note-9.html" target="_blank">Xiaomi Redmi Note 9</a>
-    <img src="https://resim.epey.com/428492/m_redmi-note-9-14.jpg" height="240" class="kre">
-    <p style="margin-top: 1em;">Ekran Boyutu: 6.53 İnç</p>
-    <p>Dahili Depolama: 64 GB</p>
-    <p>Bellek (RAM): 3 GB</p>
-    <p>Batarya Kapasitesi: 5020 mAh  
-    <p>Hat Sayısı: Çift Hat</p>
-    <p>Hızlı Şarj: Var</p>
-    <p style="margin-bottom: 2em;" >5G: Yok</p>
-</article>
-
-<article>
-    <a href="https://www.epey.com/akilli-telefonlar/realme-8.html" target="_blank">Realme 8 (RMX3085)</a>
-    <img src="https://resim.epey.com/676901/m_realme-8-18.png" height="240" class="kre">
-    <p style="margin-top: 1em;">Ekran Boyutu: 6.4 İnç</p>
-    <p>Dahili Depolama: 128 GB</p>
-    <p>Bellek (RAM): 6 GB</p>
-    <p>Batarya Kapasitesi: 5000 mAh  
-    <p>Hat Sayısı: Çift Hat</p>
-    <p>Hızlı Şarj: Var</p>
-    <p style="margin-bottom: 2em;" >5G: Yok</p>
-    </section>
-</article>
-</body>
+    <!-- Footer -->
+    <footer>Copyright © 2025 - All right reserved by Murat Guelr</footer>
+  </body>
+  <script src="./js/script.js"></script>
 </html>
